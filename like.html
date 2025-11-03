@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>likedProducts Zon.uz</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="src/output.css"/>
+</head>
+<body class="bg-gray-50 min-h-screen">
+ <!-- header start -->
+    <header class="sticky top-0 z-50 bg-white">
+      <div class="mycontainer">
+        <nav class="flex items-center justify-between py-3">
+            <nav class="flex items-center gap-5">
+                <p class=" flex items-center gap-2 font-normal text-[13px] text-[#c2cddd]"><i class="fa-solid fa-location-dot"></i>Город <span class=" font-normal xr:block xs:hidden text-[13px] underline text-[#5d78ff]">Ташкент</span></p>
+                <p class=" font-bold text-sm text-[#5d78ff] xl:flex xs:hidden items-center gap-1"><svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path opacity="0.4" d="M17.5041 12.0312V4.375H17.4528L15.0255 2.7583C14.4682 2.38574 13.8152 2.1875 13.1452 2.1875C12.4375 2.1875 11.7469 2.40967 11.1725 2.81982L7.80165 5.22607C7.0632 5.75244 6.89226 6.77783 7.41875 7.51611C7.94524 8.25439 8.97086 8.42529 9.70931 7.89893L11.6648 6.50439L16.9707 11.3682C17.1759 11.5562 17.3229 11.7852 17.4083 12.0312H17.5041ZM18.5981 12.0312C18.5981 12.6362 19.0869 13.125 19.6921 13.125H20.7861C21.3912 13.125 21.8801 12.6362 21.8801 12.0312V4.92188C21.8801 4.62109 21.6339 4.375 21.3331 4.375H18.5981V12.0312ZM20.2391 10.9375C20.3841 10.9375 20.5233 10.9951 20.6258 11.0977C20.7284 11.2002 20.7861 11.3393 20.7861 11.4844C20.7861 11.6294 20.7284 11.7685 20.6258 11.8711C20.5233 11.9736 20.3841 12.0312 20.2391 12.0312C20.094 12.0312 19.9549 11.9736 19.8523 11.8711C19.7497 11.7685 19.6921 11.6294 19.6921 11.4844C19.6921 11.3393 19.7497 11.2002 19.8523 11.0977C19.9549 10.9951 20.094 10.9375 20.2391 10.9375Z" fill="#5D78FF" />
+  <path d="M5.34009 12.0312H4.376V4.375L6.8375 2.73438C7.37082 2.37891 7.99987 2.1875 8.6426 2.1875C9.41866 2.1875 10.1708 2.46436 10.7588 2.97021L10.8511 3.04883L7.79817 5.22949C7.05972 5.75586 6.88878 6.78125 7.41527 7.51953C7.94175 8.25781 8.96738 8.42871 9.70583 7.90234L11.6614 6.50781L12.1092 6.91797L16.9707 11.3682C17.1587 11.5391 17.2989 11.7476 17.3843 11.9663C17.61 12.5337 17.5108 13.2036 17.0698 13.6855C16.4579 14.3521 15.4186 14.3999 14.7519 13.7847L14.4852 13.542C14.4545 13.8872 14.3143 14.229 14.0613 14.5059C13.4494 15.1724 12.4101 15.2202 11.7434 14.605L11.1622 14.0718C11.0973 14.3247 10.9708 14.5674 10.7827 14.7759C10.1708 15.4458 9.1349 15.4937 8.46482 14.8818L5.34009 12.0312ZM0 4.92188C0 4.62109 0.24615 4.375 0.547 4.375H3.282V12.0312C3.282 12.6362 2.79312 13.125 2.188 13.125H1.094C0.488881 13.125 0 12.6362 0 12.0312V4.92188ZM2.188 11.4844C2.188 11.3393 2.13037 11.2002 2.02779 11.0977C1.9252 10.9951 1.78607 10.9375 1.641 10.9375C1.49593 10.9375 1.35679 10.9951 1.25421 11.0977C1.15163 11.2002 1.094 11.3393 1.094 11.4844C1.094 11.6294 1.15163 11.7685 1.25421 11.8711C1.35679 11.9736 1.49593 12.0312 1.641 12.0312C1.78607 12.0312 1.9252 11.9736 2.02779 11.8711C2.13037 11.7685 2.188 11.6294 2.188 11.4844Z" fill="#5D78FF" />
+</svg>
+Продавайтена Zon.uz</p>
+<p class="font-normal text-[13px] text-[#6682a9] flex items-center gap-1 md:flex xs:hidden"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path opacity="0.4" d="M6.5625 9.84375H0V14.2188C0 15.4253 0.980957 16.4062 2.1875 16.4062H15.3125C16.519 16.4062 17.5 15.4253 17.5 14.2188V9.84375H10.9375V10.9375C10.9375 11.5425 10.4487 12.0312 9.84375 12.0312H7.65625C7.05127 12.0312 6.5625 11.5425 6.5625 10.9375V9.84375Z" fill="#6682A9" />
+  <path d="M13.125 3.28125H15.8594C16.7344 3.28125 17.5 4.04688 17.5 4.92188V9.84375H0V4.92188C0 4.04688 0.765625 3.28125 1.64062 3.28125H4.375V1.91406V1.64062C4.375 0.765625 5.14062 0 6.01562 0H6.28906H11.2109H11.4844C12.3594 0 13.125 0.765625 13.125 1.64062V1.91406V3.28125ZM11.4844 3.28125V1.91406C11.4844 1.76367 11.3613 1.64062 11.2109 1.64062H6.28906C6.13867 1.64062 6.01562 1.76367 6.01562 1.91406V3.28125H11.4844Z" fill="#6682A9" />
+</svg>
+Покупать как юрлицо</p>
+<select class="font-normal text-[13px] text-[#6682a9] outline-none xd:block xs:hidden" >
+    <option value="Помощь">Помощь</option>
+    <option value="Помощь">Помощь</option>
+    <option value="Помощь">Помощь</option>
+</select>
+<p class="font-normal text-[13px] text-[#6682a9] xd:block xs:hidden">Контакты</p>
+            </nav>
+
+            <nav>
+                <a class=" font-bold text-[15px] text-black flex items-center gap-1" href="tel:+998-78 555-35-00"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path opacity="0.4" d="M17.2847 14.0923L16.9941 15.1587C14.54 14.8613 12.2466 14.0342 10.2334 12.7969L10.9341 11.9424C12.8276 13.084 14.981 13.8359 17.2847 14.0923ZM3.40771 0.215332C3.66406 2.51904 4.41602 4.67236 5.55762 6.56592L4.70313 7.2666C3.46582 5.25342 2.63867 2.95996 2.33789 0.505859L3.40771 0.215332Z" fill="#6682A9" />
+  <path d="M2.33789 0.505859L1.00488 0.868164C0.413574 1.03223 0 1.57227 0 2.1875C0 10.6436 6.85645 17.5 15.3125 17.5C15.9277 17.5 16.4678 17.0864 16.6318 16.4917L16.9941 15.1587C9.33789 14.2324 3.26758 8.16211 2.33789 0.505859ZM17.2847 14.0923L17.4521 13.4839C17.6333 12.8208 17.2949 12.127 16.6592 11.8638L13.3779 10.4966C12.8208 10.2642 12.1748 10.4248 11.7954 10.8931L10.9375 11.9424C12.8311 13.084 14.9844 13.8359 17.2881 14.0923H17.2847ZM5.55762 6.56592L6.60693 5.70801C7.0752 5.3252 7.23584 4.68262 7.00342 4.12549L5.63623 0.844238C5.37305 0.208496 4.6792 -0.129883 4.01611 0.0512696L3.40771 0.215332C3.66406 2.51904 4.41602 4.67236 5.55762 6.56592Z" fill="#6682A9" />
+</svg>+998-78 555-35-00</a>
+            </nav>
+        </nav>
+      </div>
+      <hr class="text-gray-300">
+    <div class="mycontainer mx-auto px-4">
+    <nav class="navbar flex justify-between gap-4 items-center py-4">
+      
+
+      <a href="./index.html">
+        <img src="./img/logo.png" alt="Logo" class="w-[100px]">
+      </a>
+
+
+      <button class="font-bold text-base text-[#011c47] border w-[127px] h-10 rounded-[5px] border-solid border-[#011c47] items-center p-2 gap-2 hover:bg-blue-50 cursor-pointer transition-[1s] sm:flex hidden">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path opacity="0.4" d="M22.5 3.375C22.5 2.33906 21.6609 1.5 20.625 1.5H15.375C14.3391 1.5 13.5 2.33906 13.5 3.375V8.625C13.5 9.66094 14.3391 10.5 15.375 10.5H20.625C21.6609 10.5 22.5 9.66094 22.5 8.625V3.375ZM10.5 15.375C10.5 14.3391 9.66094 13.5 8.625 13.5H3.375C2.33906 13.5 1.5 14.3391 1.5 15.375V20.625C1.5 21.6609 2.33906 22.5 3.375 22.5H8.625C9.66094 22.5 10.5 21.6609 10.5 20.625V15.375Z" fill="#011C47"/>
+          <path d="M10.5 3.75C10.5 2.50781 9.49219 1.5 8.25 1.5H3.75C2.50781 1.5 1.5 2.50781 1.5 3.75V8.25C1.5 9.49219 2.50781 10.5 3.75 10.5H8.25C9.49219 10.5 10.5 9.49219 10.5 8.25V3.75ZM22.5 15.75C22.5 14.5078 21.4922 13.5 20.25 13.5H15.75C14.5078 13.5 13.5 14.5078 13.5 15.75V20.25C13.5 21.4922 14.5078 22.5 15.75 22.5H20.25C21.4922 22.5 22.5 21.4922 22.5 20.25V15.75Z" fill="#011C47"/>
+        </svg>
+        Каталог
+      </button>
+
+
+      <form class="border rounded-[5px] border-solid border-[#6682a9] items-center justify-between pl-2 w-[50%] xe:flex hidden">
+        <input class="outline-none w-full p-2" type="search" placeholder="Найти товары">
+        <button class="bg-[#d1dae6] rounded-r-[5px] py-2 px-4">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+
+
+      <div class="flex items-center gap-4">
+        <p class="text-gray-500 text-xl"><a href="./savat.html"><i class="fa-solid fa-cart-shopping"></i></a></p>
+        <p class="text-gray-500 text-xl relative"><a href="./like.html"><i class="fa-solid fa-heart text-xl text-gray-600"></i></a></p>
+        <p class="text-gray-500 text-xl xd:flex hidden items-center gap-2"><i class="fa-solid fa-globe"></i> RU</p>
+        <p class="text-gray-500 text-xl xd:block hidden"><i class="fa-solid fa-question"></i></p>
+        <button class="w-[81px] h-10 bg-[#5d78ff] hover:bg-blue-400 transition-[1s] cursor-pointer font-medium text-sm text-white rounded-[5px] px-2 xr:block hidden">
+          <a href="./admin.html">ADMIN</a>
+        </button>
+      </div>
+
+
+      <div class="md:hidden flex items-center">
+        <button id="mobileBtn" aria-expanded="false" aria-controls="mobileMenu" class="p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400">
+          <svg id="iconOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+          <svg id="iconClose" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+
+  <div id="mobileMenu" class="md:hidden max-h-0 overflow-hidden transition-all duration-500 ease-in-out bg-white px-4 pb-4">
+    <nav class="flex flex-col gap-2 pt-4">
+     <div class="flex items-center gap-2 justify-between">
+        <button class="font-bold text-base text-[#011c47] border w-[127px] h-10 rounded-[5px] border-solid border-[#011c47] items-center p-2 gap-2 hover:bg-blue-50 cursor-pointer transition-[1s] flex">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path opacity="0.4" d="M22.5 3.375C22.5 2.33906 21.6609 1.5 20.625 1.5H15.375C14.3391 1.5 13.5 2.33906 13.5 3.375V8.625C13.5 9.66094 14.3391 10.5 15.375 10.5H20.625C21.6609 10.5 22.5 9.66094 22.5 8.625V3.375ZM10.5 15.375C10.5 14.3391 9.66094 13.5 8.625 13.5H3.375C2.33906 13.5 1.5 14.3391 1.5 15.375V20.625C1.5 21.6609 2.33906 22.5 3.375 22.5H8.625C9.66094 22.5 10.5 21.6609 10.5 20.625V15.375Z" fill="#011C47"/>
+          <path d="M10.5 3.75C10.5 2.50781 9.49219 1.5 8.25 1.5H3.75C2.50781 1.5 1.5 2.50781 1.5 3.75V8.25C1.5 9.49219 2.50781 10.5 3.75 10.5H8.25C9.49219 10.5 10.5 9.49219 10.5 8.25V3.75ZM22.5 15.75C22.5 14.5078 21.4922 13.5 20.25 13.5H15.75C14.5078 13.5 13.5 14.5078 13.5 15.75V20.25C13.5 21.4922 14.5078 22.5 15.75 22.5H20.25C21.4922 22.5 22.5 21.4922 22.5 20.25V15.75Z" fill="#011C47"/>
+        </svg>
+        Каталог
+      </button>
+
+      <div class="flex items-center gap-2">        <p class="text-gray-500 text-xl  items-center gap-2"><i class="fa-solid fa-globe"></i> RU</p>
+            <p class="text-gray-500 text-xl "><i class="fa-solid fa-question"></i></p></div>
+     </div>
+           <button class="w-ful h-10 bg-[#5d78ff] hover:bg-blue-400 transition-[1s] cursor-pointer font-medium text-sm text-white rounded-[5px] ">
+          <a href="./admin.html">ADMIN PANEL</a>
+        </button>
+      <div class="pt-2 border-t mt-2">
+         <form class="border rounded-[5px] border-solid border-[#6682a9] w-full justify-between pl-2 flex items-center">
+        <input class="outline-none w-full p-2" type="search" placeholder="Найти товары">
+        <button class="bg-[#d1dae6] rounded-r-[5px] py-2 px-4">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      </div>
+    </nav>
+  </div>
+
+   <script>
+    const btn = document.getElementById("mobileBtn");
+    const menu = document.getElementById("mobileMenu");
+    const openIcon = document.getElementById("iconOpen");
+    const closeIcon = document.getElementById("iconClose");
+
+    btn.addEventListener("click", () => {
+      const expanded = btn.getAttribute("aria-expanded") === "true";
+      btn.setAttribute("aria-expanded", !expanded);
+      menu.style.maxHeight = expanded ? "0" : menu.scrollHeight + "px";
+      openIcon.classList.toggle("hidden");
+      closeIcon.classList.toggle("hidden");
+    });
+  </script>
+
+      </nav>
+
+           
+        </nav>
+      </div>
+      <hr class="text-gray-300">
+
+    </header>
+    <!-- header end -->
+
+
+  <main class="max-w-7xl mx-auto px-4 py-10">
+    <h1 class="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-2">
+      <i class="fa-solid fa-heart text-red-500"></i> Yoqtirilgan mahsulotlar
+    </h1>
+
+    <div id="likedProducts" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
